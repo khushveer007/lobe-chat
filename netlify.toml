@@ -4,6 +4,7 @@ publish = ".next"
 
 [build.environment]
 NODE_OPTIONS = "--max-old-space-size=4096"
+NODE_VERSION = "22.15.29"
 
 [template.environment]
 OPENAI_API_KEY = "set your OpenAI API Key"
